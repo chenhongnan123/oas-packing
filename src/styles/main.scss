@@ -1,0 +1,6 @@
+@import '~@/styles/_font.scss';
+@import '~@/styles/_colors.scss';
+@import '~vuetify/src/styles/styles.sass';
+
+$material-light: map-merge($material-light, ('background': map-get($shades, 'white')));
+$material-dark: map-merge($material-dark, ('background': map-get($grey, 'darken-3')));

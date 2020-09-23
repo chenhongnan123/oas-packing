@@ -1,0 +1,134 @@
+{
+  "$vuetify": {
+    "close": "Close",
+    "dataIterator": {
+      "noResultsText": "No matching records found",
+      "loadingText": "Loading items..."
+    },
+    "dataTable": {
+      "itemsPerPageText": "Rows per page:",
+      "ariaLabel": {
+        "sortDescending": ": Sorted descending. Activate to remove sorting.",
+        "sortAscending": ": Sorted ascending. Activate to sort descending.",
+        "sortNone": ": Not sorted. Activate to sort ascending."
+      },
+      "sortBy": "Sort by"
+    },
+    "dataFooter": {
+      "itemsPerPageText": "Items per page:",
+      "itemsPerPageAll": "All",
+      "nextPage": "Next page",
+      "prevPage": "Previous page",
+      "firstPage": "First page",
+      "lastPage": "Last page",
+      "pageText": "{0}-{1} of {2}"
+    },
+    "datePicker": {
+      "itemsSelected": "{0} selected"
+    },
+    "noDataText": "No data available",
+    "carousel": {
+      "prev": "Previous visual",
+      "next": "Next visual"
+    },
+    "calendar": {
+      "moreEvents": "{0} more"
+    },
+    "fileInput": {
+      "counter": "{0} files",
+      "counterSize": "{0} files ({1} in total)"
+    },
+    "timePicker": {
+      "am": "AM",
+      "pm": "PM"
+    }
+  },
+  "appName": "OAS Packing",
+  "connected": "Connected",
+  "disconnected": "Disconnected",
+  "confirm": {
+    "cancel": "No",
+    "agree": "Yes"
+  },
+  "login": {
+    "title": "Log into ShopWorx",
+    "form": {
+      "username": "Username",
+      "password": "Password"
+    },
+    "actions": {
+      "cancel": "Cancel",
+      "login": "Login"
+    }
+  },
+  "settings": {
+    "title": "Update settings",
+    "form": {
+      "serverIp": "Server IP",
+      "userId": "User ID",
+      "customerId": "Customer ID",
+      "customerName": "Customer Name",
+      "stationName":"Station Name",
+      "required": " is required"
+    },
+    "actions": {
+      "cancel": "Cancel",
+      "update": "Update"
+    }
+  },
+  "worknumber": {
+    "title": "Login Work Number",
+    "login": "Login",
+    "logout": "Logout",
+    "workNumber": "Work Number",
+    "ErrorWorkNumber":"Work number does not exist"
+  },
+  "history": {
+    "title": "Recent packing barcodes",
+    "form": {
+      "serverIp": "Server IP",
+      "userId": "User ID",
+      "customerId": "Customer ID"
+    }
+  },
+  "basket": {
+    "input": "Scan basket barcode",
+    "table": {
+      "barcode": "Basket Barcode",
+      "partNumber": "Part",
+      "quantity": "Quantity",
+      "quantityactual": "Actual Quantity",
+      "actions": "Actions"
+    },
+    "errors": {
+      "emptyInput": "Input required",
+      "duplicateInput": "Barcode({barcode}) already exists",
+      "invalidInput": "Barcode({barcode}) does not exists"
+    },
+    "confirmDelete": {
+      "title": "Confirm delete",
+      "message": "Do you want to delete {barcode}?"
+    },
+    "confirmReset": {
+      "title": "Confirm reset",
+      "message": "Are you sure?"
+    },
+    "actions": {
+      "reset": "Reset",
+      "print": "Print Barcode"
+    }
+  },
+  "packing": {
+    "table": {
+      "barcode": "Packing Barcode",
+      "part": "Part",
+      "operator": "Operator",
+      "quantity": "Quantity",
+      "actions": "Actions"
+    },
+    "confirmPrint": {
+      "title": "Confirm print",
+      "message": "Do you want to print {barcode}?"
+    }
+  }
+}
